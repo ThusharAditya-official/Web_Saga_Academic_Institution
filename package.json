@@ -1,0 +1,19 @@
+{
+  "name": "websaga",
+  "version": "1.0.0",
+  "description": "Web-Based Academic ERP with Automated Question Paper Generation",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7"
+  }
+}
